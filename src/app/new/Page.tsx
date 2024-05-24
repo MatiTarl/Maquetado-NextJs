@@ -1,7 +1,10 @@
+import SideBar from "./sidebar"
+
 export default function New() {
  return(
-    <main>
-        new page
+    <main className="flex ">
+        <div className="">  
+        </div>
     </main>
  )
 }

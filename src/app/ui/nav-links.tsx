@@ -9,11 +9,11 @@ import { usePathname } from 'next/navigation';
 
 const links = [
     { name: 'Dashboard', href: '/dashboard' },
-    { name: 'Orders', href: '/Orders' },
-    { name: 'Inventory', href: '/Inventory' },
-    { name: 'Vehicles', href: '/Vehicles' },
-    { name: 'Drivers', href: '/Drivers' },
-    { name: 'New', href: '/New' },
+    { name: 'Orders', href: '/orders' },
+    { name: 'Inventory', href: '/inventory' },
+    { name: 'Vehicles', href: '/vehicles' },
+    { name: 'Drivers', href: '/drivers' },
+    { name: 'New', href: '/new' },
 ];
 
 export default function NavLinks() {
