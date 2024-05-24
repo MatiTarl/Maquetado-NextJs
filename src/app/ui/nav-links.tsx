@@ -25,8 +25,8 @@ export default function NavLinks() {
                     <Link
                         key={link.name}
                         href={link.href}
-                        className={`flex h-[38px] items-center justify-center mr-1 ml-1 text-black rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3
-            ${pathName == link.href ? 'bg-sky-100 text-blue-600' : ''}
+                        className={`flex h-[38px] items-center justify-center mr-1 ml-1 text-black rounded-md  p-3 text-sm font-medium hover:bg-blue-500 transition-colors hover:text-white md:flex-none md:justify-start md:p-2 md:px-3
+            ${pathName == link.href ? 'bg-blue-900  text-white' : ''}
             `}
                     >
                         <p className="hidden md:block">{link.name}</p>
