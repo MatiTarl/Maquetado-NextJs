@@ -17,7 +17,7 @@ export default function NewLayout({
 }>) {
     return (
         <main>
-            <header className="flex">
+            <header className="flex-col md:flex-row md:flex">
                 <div className="h-full">
                     <Sidebar />
                 </div>
